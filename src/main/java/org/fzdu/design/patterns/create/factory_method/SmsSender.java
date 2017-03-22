@@ -1,4 +1,4 @@
-package org.fzdu.design.patterns.create.factory_method.normal;
+package org.fzdu.design.patterns.create.factory_method;
 
 public class SmsSender implements Sender {
 

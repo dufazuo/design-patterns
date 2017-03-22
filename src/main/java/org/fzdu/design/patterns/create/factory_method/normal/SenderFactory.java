@@ -1,5 +1,9 @@
 package org.fzdu.design.patterns.create.factory_method.normal;
 
+import org.fzdu.design.patterns.create.factory_method.MailSender;
+import org.fzdu.design.patterns.create.factory_method.Sender;
+import org.fzdu.design.patterns.create.factory_method.SmsSender;
+
 public class SenderFactory {
 
 	public Sender produce(String type) {
